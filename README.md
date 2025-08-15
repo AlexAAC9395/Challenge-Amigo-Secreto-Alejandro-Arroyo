@@ -53,7 +53,7 @@ Sin papelitos perdidos, sin discusiones sobre si el sorteo fue "justo" y sin ten
 
 1. **Clona este repositorio**  
    ```bash
-   git clone https://github.com/tu-usuario/amigo-secreto.git
+   git clone https://github.com/AlexAAC9395/Challenge-Amigo-Secreto-Alejandro-Arroyo.git
 2. **Abre index.html en tu navegador.**
 3. **Escribe un nombre en el campo de texto y haz clic en Añadir.**
 4. **Repite el paso 3 hasta que todos estén en la lista.**
