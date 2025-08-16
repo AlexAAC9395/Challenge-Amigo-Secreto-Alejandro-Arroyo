@@ -17,3 +17,15 @@ function agregarAmigo() {
     mostrarLista();
     input.value = "";
 }
+
+// Función para mostrar la lista en pantalla
+function mostrarLista() {
+    const listaHTML = document.getElementById("listaAmigos");
+    listaHTML.innerHTML = "";
+
+    listaAmigos.forEach((amigo) => {
+        const li = document.createElement("li");
+        li.textContent = amigo;
+        listaHTML.appendChild(li);
+    });
+}
