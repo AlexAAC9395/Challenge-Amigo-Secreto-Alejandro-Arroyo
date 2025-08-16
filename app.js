@@ -13,6 +13,13 @@ function agregarAmigo() {
         return;
     }
 
+    // Validar nombres repetidos (insensible a mayúsculas/minúsculas)
+    if (listaAmigos.some(amigo => amigo.toLowerCase() === nombre.toLowerCase())) {
+        alert("El nombre introducido ya existe en la lista.");
+        input.value = "";
+        return;
+    }
+
     listaAmigos.push(nombre);
     mostrarLista();
     input.value = "";
